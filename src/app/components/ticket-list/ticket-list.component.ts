@@ -21,7 +21,7 @@ export class TicketListComponent implements OnInit {
   message : {};
   classCss : {};
   listTicket=[];
-  ticketFilter = new Ticket('',null,'','','','',null,null,'',null);
+  ticketFilter = new Ticket('',null,'','','','','',null,null,'',null);
 
   constructor(
     private dialogService: DialogService,
@@ -68,7 +68,7 @@ export class TicketListComponent implements OnInit {
     this.assignedToMe = false;
     this.page = 0;
     this.count = 5;
-    this.ticketFilter = new Ticket('',null,'','','','',null,null,'',null);
+    this.ticketFilter = new Ticket('',null,'','','','','',null,null,'',null);
     this.findAll(this.page,this.count);
   }
 
